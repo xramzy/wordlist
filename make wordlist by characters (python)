@@ -1,0 +1,19 @@
+import itertools
+
+print("++++++++++++++++++")
+print("[$] welcome *^*")
+print("[$] v1")
+print("++++++++++++++++++")
+
+char = input("Enter the max of char :")
+num = int("Enter the num ")
+
+print("++++++++++++++++++")
+for x in itertools.product(char, repeat = num):
+	print("".join(x))
+print("++++++++++++++++++")
+
+#good luck
+#ramzy passed from here
+
+
